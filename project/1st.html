@@ -7,67 +7,66 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js\solatapi.js"></script>
-    <script src="typed.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--import JQUERY   -->
+    <script src="js\solatapi.js"></script> <!-- link another javascript file   -->
+    <script src="typed.js"></script> <!--link another javascript file   -->
     <script src="https://unpkg.com/scrollreveal@4"></script>
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<link rel="stylesheet" href="animate.css">
-
-
-  </script>
-
-
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /><!-- import animate css library   -->
+<link rel="shortcut icon" href="https://banner2.kisspng.com/20180402/pkq/kisspng-quran-computer-icons-mosque-font-masjid-5ac2c23bb67bf5.2934594315227131477475.jpg"> <!-- icon for tab image  -->
+<!--import font Work Sans from google -->
     <style>
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 </style>
-    <link rel="stylesheet"  href="1st.css">
+    <link rel="stylesheet"  href="1st.css"> <!-- link css file   -->
 
     <meta charset="utf-8">
     <title>Surau Babur Rahmah</title>
-    <script src="https://unpkg.com/scrollreveal@4"></script>
+
 
 
   </head>
-  <body">
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!-- import  animation javascript file library   -->
 <script>
   AOS.init();
 </script>
 
 
-    <nav>
-      <ul id='ull'>
 
-        <li id='lii' class="fadeOutUp"><a href=".container">Contact Us</a></li>
+    <nav> <!--navigation of file   -->
+      <ul id='ull'> <!-- make unorderlist and then have list   -->
+
+        <li id='lii'><a href="#footer">Contact Us</a></li>
         <li id='lii'><a href="#time">Prayer Time</a></li>
         <li id='lii'><a href="#price">Services</a></li>
         <li id='lii'><a href="#map">Find Us</a></li>
         <li id='lii'><a href="#pics">Pictures</a></li>
         <li id='lii'><a href="#About">About Us</a></li>
-        <li id='lii'><a href=".container">Home</a></li>
+        <li id='lii'><a href="#container">Home</a></li>
       </ul id='ull'>
 
     </nav>
 
 
-<div class="container" >
-  <!--<img src="css\pics\coverphotomasjid.jpg" alt="" class="cover">-->
+
+
+<div id="container" > <!-- make div for container  -->
+
 <p id="coverwor">This is</p>  <p id="coverword" ></p>
+
   <script>
   var typed = new Typed("#coverword", {
     // Waits 1000ms after typing "First"
-    strings: ["website","Surau <br> Babur <br> Rahmah"],
-    typespeed:1000,
-    backspeed:1000,
+    strings: ["website","Surau <br> Babur <br> Rahmah"],  // the content of typing"
+    typespeed:1000, //speed of typing in milisecond
+    backspeed:1000, //speed of erasing in milisecond
 
-    loop:true,
-    startdelay:10000
+    loop:true, //make loop for the text
+    startdelay:10000 //delay the text
   });
 
   </script>
-  <div id="right">
+  <div id="right"> <!-- box the right for about-->
 
 
 
@@ -77,25 +76,25 @@
 
 <div id="About"  data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="3000">
+     data-aos-duration="3000"> <!-- div for about and0 import method for each file-->
 
-  <h1 id="a">ABOUT<br> US</h1>
-    <center>
-    <p id="b">Our musolla is called Surau Babur Rahmah<br>
-    <br>This musolla is located at Kampung Sungai Chinchin<br>
-    <br>This place could contain about 200 jamaah<br>
-    <br>Mostly visited by the villagers that live there<br>
-    <br>The environment with the residents at this place is quite nice</p><br>
+  <h1 id="a">ABOUT<br> US</h1><!--displays the id as 'a' -->
+    <center><!--display all the text in center position -->
+    <p id="b">Our musolla is called Surau Babur Rahmah<br><!--displays the id as 'b' -->
+    <br>This musolla is located at Kampung Sungai Chinchin<br><!--break here -->
+    <br>This place could contain about 200 jamaah<br><!--break here -->
+    <br>Mostly visited by the villagers that live there<br><!--break here -->
+    <br>The environment with the residents at this place is quite nice</p><br><!--break here -->
   </center>
 
 
 
 </div>
 
-<div id="pics">
+<div id="pics"> <!-- div of picture -->
 
 
-<h1 id="tajuk">My <br>pictures</h1>
+<h1 id="tajuk">My <br>pictures</h1> <!-- figure image -->
 
 <div class="container2">
     <div class="gallery">
@@ -122,9 +121,10 @@
 
 </div>
 
-<div id="map">
+<div id="map"> <!-- div for map -->
 <h1 id="location">My location</h1>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.4145053931215!2d101.71165411468954!3d3.2466730976362617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3921178f5453%3A0xdc8262f726e6889b!2sSurau+Babur+Rahmah!5e0!3m2!1sen!2smy!4v1556513081804!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<!-- import the map-->
   </div>
 
 <div id="price">
@@ -136,39 +136,39 @@
        data-aos-duration="3000"
   >
   <div class="containerprice">
-    <div class="columns">
-      <ul class="price">
-          <li class="header">Funeral Management</li>
-          <li class="grey">RM 900 Per Person (Adult)</li>
+    <div class="columns"> <!-- div of column service -->
+      <ul class="price"> <!-- unordered list for price-->
+          <li class="header">Funeral Management</li> <!-- bullet for class header -->
+          <li class="grey">RM 900 Per Person (Adult)</li> <!-- bullet forgrey class-->
           <li>Kafan</li>
           <li>Bathing</li>
           <li>Funeral Car</li>
           <li>Burial</li>
-          <li class="grey"><a href="formbook.html" class="button">Book Now</a></li>
+          <li class="grey"><a href="formbook.html" class="button">Book Now</a></li> <!-- href goes to booking page-->
         </ul>
       </div>
-      <div class="columns">
-        <ul class="price">
+      <div class="columns"> <!-- div of column service -->
+        <ul class="price"> <!-- unordered list for price-->
             <li class="header">Quranic
-   Class</li>
-            <li class="grey">RM 10 Per Week</li>
+   Class</li> <!-- bullet for class header-->
+            <li class="grey">RM 10 Per Week</li> <!-- Bullet for classs grey-->
             <li>2 Classes</li>
             <li>Certified Teacher</li>
             <li>Refreshment Provided</li>
             <li>Learning Notes</li>
-            <li class="grey"><a href="formbook.html" class="button">Book Now</a></li>
+            <li class="grey"><a href="formbook.html" class="button">Book Now</a></li> <!-- href links goes to booking page-->
           </ul>
         </div>
-        <div class="columns">
-          <ul class="price">
+        <div class="columns"> <!-- div of column service -->
+          <ul class="price"> <!-- unordered list for price-->
               <li class="header">Arabic
-   Class</li>
-              <li class="grey">RM 15 Per Week</li>
+   Class</li> <!-- bullet for class header-->
+              <li class="grey">RM 15 Per Week</li> <!-- Bullet for classs grey-->
               <li>4 Classes</li>
               <li>Certified Teacher</li>
               <li>Refreshment Provided</li>
               <li>Learning Notes</li>
-              <li class="grey"><a href="formbook.html" class="button">Book Now</a></li>
+              <li class="grey"><a href="formbook.html" class="button">Book Now</a></li> <!-- href links goes to booking page-->
             </ul>
           </div>
 
@@ -187,13 +187,13 @@
 
 
 
-<div id="time">
+<div id="time"> <!-- div from time-->
 
 
 
-    <h2 id="prayertime">Gombak Prayer Times</h2>
+    <h2 id="prayertime">Gombak Prayer Times</h2> <!-- box the right for about-->
     <center>
-      <table>
+      <table> <!--make table-->
         <tr>
           <td>Date</td>
           <td>Day</td>
@@ -223,14 +223,22 @@
 
 
 
+
+
+
+  <div id="footer"> <!-- div for footer -->
+
+<h1 id="know">Need to <br> know more?</h1>
+
+<p id="contacts" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="3000">Ustaz Haji Abbas bin Abdul Aziz <br> Musolla's Imam <br> 019772834  <br> <br> <br>  Khair Bin Mohamed <br> Musolla's Bilal <br> 0138215574</p>
+
+  </div>
+
+
   </body>
 
-  <footer style="background-color:darkgray ; bottom:0; height: 100px ">
-    <div id="footer">
-      <p class="left">Need to know more?</p>
-      <p class="right">Masjid Babur Rahmah <br/> Kampung Sg Chinchin<br>53000 Gombak, Selangor</p>
-      <p class="centered">Ust. Haji Abbas Bin Hassan<br />Babur Rahmah Mosque Imam </p>
-  </div>
-  </footer>
+
 
 </html>
