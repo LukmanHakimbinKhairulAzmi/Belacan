@@ -2,12 +2,18 @@
   box-sizing: border-box;
 margin: 0;
 padding: 0;
-font-family: 'Work Sans', sans-serif;
+font-family: 'Work Sans', sans-serif; /*-- import the font for all elements */
 
 }
 
-#footer {
-  height: 100px;
+#footer{
+  height:400px;
+  background: #ebebeb; /*background of footer */
+  width: 100%; /* size of width */
+    overflow-x: hidden;
+}
+#know{ /*div know*/
+  font-size: 80px; /* size of font */
 }
 
 .left{
@@ -22,54 +28,71 @@ text-align:right;
 font-size: 15px;
 }
 .centered{
-text-align:center;
+
 font-size: 15px;
 
 }
 
 
-.container{
+#container{
   background-image:
-  linear-gradient( rgba(46, 179, 214, 0.60), rgba(67, 204, 152, 0.60)), /* inset your image below */
+  linear-gradient( rgba(46, 179, 214, 0.60), rgba(67, 204, 152, 0.60)), /* first is filter then image*/
 	url("css/pics/coverphotomasjid.jpg");
-  background-repeat: no-repeat;
-background-size: cover;
+  background-repeat: no-repeat; /*no repeat */
+background-size: cover; /*for background image */
 }
 
 html{
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* hava smooth scroll */
 }
 img{
 
-  z-index: 0;
+  z-index: 0; /* */
 }
 p{
   font-family: 'Work Sans', sans-serif;
 }
 div{
-  height: 100vh;
+  height: 100vh; /*each of div have high as website fulll screen */
 }
 #coverword,#coverwor{
-  font-size: 150px;
+  font-size: 150px; /* font size of about */
   line-height: 118px;
 
 
 
 }
 #right{
-  background-color:  #48dbfb33;
+  background-color:  #48dbfb33; /* color of rectangle*/
   height: 900px;
   width:500px;
-  z-index: -1;
+  z-index: -1;/*back in the back */
   position: absolute;
   top: 100vh;
   right: 0;
 }
 
 nav{
-  float: right;
-  position: sticky; top: 0;
-  z-index: 10;
+  float: right; /*nav text */
+  position: sticky; /*to be position */
+   top: 0; /* always be top*/
+  z-index: 10; /*to be front for all elements */
+
+
+
+
+
+}
+
+#contacts{
+
+  font-size: 20px; /* size font for word*/
+  position: relative;
+  right: -800px;
+  bottom:100px;
+  margin: 0px;
+  padding:0px;
+  line-height: 20pt; /*line spacing for each break */
 
 
 
@@ -78,7 +101,7 @@ nav{
 }
 
 #halfcircle{
-  background-color:  #48dbfb99;
+  background-color:  #48dbfb99; /*color of background */
   height:700px;
   width:450px;
   border-radius:0px 450px 450px 0px;
@@ -94,12 +117,12 @@ z-index: -4;
 nav #ull{
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: none; /* to have no list*/
 }
 
 nav #lii{
-  display: inline-block;
-  margin-left: 20px;
+  display: inline-block; /*displa in block */
+  margin-left: 20px; /*have spacing in left */
 }
 
 #ull ,#lii{
@@ -113,43 +136,20 @@ nav #lii{
 
 
 nav a{
-  text-decoration: none;
+  text-decoration: none; /* to delete blue color*/
   display: block;
-    color: black;
+    color: black; /*color of text a */
 
 
 
 }
 
 nav a:hover{
-  border-bottom: 5px solid  #48dbfb33;
+  border-bottom: 10px solid  black; /*when cursor touch the word it will have bottom black border */
 }
 
 
 
-
-
-#one{
-  border-radius: 90px;
-  height: 300px;
-  width: 500px;
-
-}
-
-#two{
-   border-radius: 50%;
-   height: 300px;
-   width: 300px;
-   margin-left: 50px;
-}
-
-#three{
-  height: 400px;
-  width: 500px;
-  position: relative;
-  left: 150px;
-  margin-top: 20px;
-}
 
 #tajuk{
   float:right;
@@ -160,44 +160,36 @@ nav a:hover{
 
 }
 
-#five{
-  height: 300px;
-  width: 450px;
-  position: relative;
-  right: -300px;
-  bottom: 50px;
-}
 
-.container{
 
-}
+
 
 #a{
-  text-align: center;
-  width: 500px;
-  height: 400px;
-  margin: 100px auto;
-  position: relative;
-  top: 100px;
-  right: 180px;
-  font-size: 100px;
+  text-align: center;/*set the text allign to bee centered*/
+  width: 500px;/* set the of the id 'a' as 500px*/
+  height: 400px;/*set the height as 400px*/
+  margin: 100px auto;/*set the margin as 100px auto*/
+  position: relative;/*set the postition of the texts as relative*/
+  top: 100px;/*set the top position as 100px*/
+  right: 180px;/*set the right position as 180px*/
+  font-size: 100px;/*set size  of the font as 100px*/
 }
 #b{
-  text-align: right;
+  text-align: right;/*set the text allign for id 'b' to right postition*/
 
-  margin:10px;
-  top: -360px;
-  right: 280px;
+  margin:10px;/*set the margin as 10px*/
+  top: -360px;/*set the top pposition as -360px*/
+  right: 280px;/*set the right position as 280px*/
 
-  position: relative;
+  position: relative;/*set the position of the texts as relative*/
 }
 
 td {
   text-align: center;
-}
+} /*center for each word */
 td, th {
   border: 1px solid rgb(190,190,190);
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
 table{
@@ -205,23 +197,23 @@ font-size:30px;
 margin-top: 240px;
 }
 #time{
-  height: 100vh;
+
   text-align:center;
 
 }
 
-#prayertime{
-font-size:100px;
+#prayertime{ /* position text */
+font-size:65px;
 position: relative;
 top:170px;
 
 }
 
 
-#map{
+#map{ /*div for map */
   text-align: center;
   margin-top: 60px;
-  background-image: linear-gradient(white,#48dbfb,white);
+  background-image: linear-gradient(white,#48dbfb,white); /*make gradient */
   padding-top: 10vh;
 }
 
@@ -315,7 +307,7 @@ grid-row-end: 9;
 /* grid-column: 5 / span 4; */
 /* grid-row: 6 / span 3; */
 }
-#islamgeo{
+#islamgeo{/* picture inside time prayer*/
 
   position: absolute;
   right:0px;
@@ -323,59 +315,59 @@ grid-row-end: 9;
 }
 
 #price{
-  height: 100vh;
+  height: 100vh; /*set height 100vh*/
 }
-.columns {
-float: left;
-width: 33.3%;
-padding: 8px;
+.columns { /* Class of price column*/
+float: left; /* float text to left*/
+width: 33.3%; /* set width 33.3%*/
+padding: 8px; /*set padding 8px value*/
 }
 
-.price {
-list-style-type: none;
-border: 1px solid #eee;
-margin: 0;
-padding: 0;
--webkit-transition: 0.3s;
-transition: 0.3s;
+.price { /* Class for price */
+list-style-type: none; /* set none to list-style-type*/
+border: 1px solid #eee; /* Set border value 1px solid #eee*/
+margin: 0; /*set margin 0*/
+padding: 0;/* set padding 0*/
+-webkit-transition: 0.3s; /*set webkit transition to 0.3s*/
+transition: 0.3s; /*set transition 0.3 second*/
 }
 
 .price:hover {
-box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2) /*set shadow for the box */
 }
 
-.price .header {
+.price .header { /* price and class header*/
 
-color: black;
-font-size: 25px;
+color: black; /*set font color black*/
+font-size: 25px; /*set font size 25px*/
 }
 
 .price li {
-border-bottom: 1px solid #eee;
-padding: 20px;
-text-align: center;
+border-bottom: 1px solid #eee; /*set bottom border 1px solid #eee*/
+padding: 20px; /*set padding 20px*/
+text-align: center; /* set text align center*/
 }
 
 .price .grey {
-background-color: #eee;
-font-size: 20px;
+background-color: #eee; /* set background color value #eee */
+font-size: 20px; /* set font size 20px*/
 }
 
 .button {
-background-color:  #1d708399;
-border: none;
-color: white;
-padding: 10px 25px;
-text-align: center;
-text-decoration: none;
-font-size: 18px;
+background-color:  #1d708399; /*set background color to   #1d708399*/
+border: none; /*set border none*/
+color: white; /*set font white*/
+padding: 10px 25px; /*set padding 10px 25px*/
+text-align: center; /*set text align center*/
+text-decoration: none; /*set text decoration to none*/
+font-size: 18px; /*set font size 18px*/
 }
-.containerprice{
-  position: relative;
-  top:90px;
+.containerprice{ /*class containerprice*/
+  position: relative; /* use relative postition*/
+  top:90px; /*set pos from top 90px*/
 
 }
 
 #servicen{
-  font-size: 90px;
+  font-size: 90px; /*font size h1 for header our service */
 }
